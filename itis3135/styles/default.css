@@ -73,3 +73,8 @@ nav
     width: 25%;
     border-radius: 8px;
 }
+
+p
+{
+  text-align: center;
+}
