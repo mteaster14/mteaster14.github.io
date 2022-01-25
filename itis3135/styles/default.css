@@ -1,16 +1,25 @@
 body
 {
 	font-family: tahoma;
-	color: #595757 ;
+	color: #905f21 ;
 	background-color: #ffeacf;
 
 	margin-left: 150px;
 	margin-right: 150px;
 }
 
-header, footer
+header
 {
 	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+  border-style: inset;
+  border-color: #ea9e2d;
+}
+
+footer
+{
+  margin-top: 50px;
 	margin-bottom: 50px;
 	text-align: center;
 }
@@ -31,14 +40,14 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: #a9aaac;
+	color: #ea9e2d;
 	font-weight: bold;
 }
 
 a:hover
 {
 	text-decoration: underline;
-	color: #595757;
+	color: #905f21;
 }
 
 figure
