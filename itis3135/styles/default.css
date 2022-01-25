@@ -1,71 +1,50 @@
-body
+body 
 {
-	font-family: tahoma;
-	color: teal ;
-	background-color: silver;
-
-	margin-left: 150px;
-	margin-right: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5e2d9;
+  background-color: #151706;
+  margin: 50px 100px 50px 100px;
 }
 
-header, footer
+a { color: lightblue;}
+a:hover { color: red;}
+
+header,footer
 {
-	margin-top: 50px;
-	margin-bottom: 50px;
-	text-align: center;
+  font-family: Courier, serif;
+  text-align: center;
+  color: #FFAC81;
+  text-align: center;
+  background-color: #721121;
+  border-color: blanchedalmond;
+  border-style: solid;
+  padding-bottom: 20px;
+}
+
+h1,h2,h3
+{
+  font-family:'Lucida Sans', 'Trebuchet MS', sans-serif;
+}
+
+.main_center
+{
+  text-align: center;
+}
+
+#intro_wedding_pic
+{
+  display: block;
+  width: 189px;
+  height: 252px;
+  margin: 25px auto 25px auto;
 }
 
 main
 {
-	margin-left: 100px;
-	margin-right: 100px;
+  margin: 25px 50px 25px 50px;
 }
 
-h1, h2, h3
+li
 {
-	font-family: Cambria, Cochin, Georgia, serif;
-	text-align: center;
-	line-height: 0px;
-}
-
-a
-{
-	text-decoration: none;
-	color: lightseagreen;
-	font-weight: bold;
-}
-
-a:hover
-{
-	text-decoration: underline;
-	color: mediumseagreen;
-}
-
-figure
-{
-	text-align: center;
-}
-
-img 
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    border-radius: 8px;
-}
-
-figcaption
-{
-	font-style: italic;
-}
-
-nav
-{
-	text-align: center;
-}
-
-p 
-{
-    text-align: center;
+  margin: 5px 5px 5px 5px;
 }
