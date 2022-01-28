@@ -3,7 +3,6 @@ body
 	font-family: tahoma;
 	color: #905f21 ;
 	background-color: #ffeacf;
-
 	margin-left: 150px;
 	margin-right: 150px;
 }
@@ -77,4 +76,29 @@ nav
 p
 {
     text-align: center;
+}
+
+th, td
+{
+	border: 1px solid black;
+  padding: .2em 1em .2em .3em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin: 0px auto;
+  
+}
+
+table tr:nth-child(even)
+{
+    background-color: #e7c8b5;
+}
+
+th
+{
+  background-color: #cfd2d5;
 }
