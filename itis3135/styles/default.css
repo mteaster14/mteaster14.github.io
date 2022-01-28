@@ -13,7 +13,7 @@ header
 	margin-bottom: 50px;
 	text-align: center;
     border-style: inset;
-    border-color: #ea9e2d;
+    border-color: #ce9b8e;
 }
 
 footer
@@ -39,7 +39,7 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: #ea9e2d;
+	color: #ce9b8e;
 	font-weight: bold;
 }
 
