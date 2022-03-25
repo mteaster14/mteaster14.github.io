@@ -1,0 +1,50 @@
+body {
+    font-family: tahoma;
+    color: #905f21;
+    background-color: #ffeacf;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-style: inset;
+    border-color: #ce9b8e;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #ce9b8e;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #905f21;
+}
+
+h3 {
+    text-align: left;
+}
+
+h2,
+h4 {
+    text-align: center;
+}
+
+.leftalign {
+    text-align: left;
+}

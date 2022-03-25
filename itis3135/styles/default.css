@@ -1,71 +1,62 @@
-body
-{
-	font-family: tahoma;
-    color: #905f21 ;
+body {
+    font-family: tahoma;
+    color: #905f21;
     background-color: #ffeacf;
     margin-left: 150px;
     margin-right: 150px;
 }
 
-header
-{
-	margin-top: 50px;
-	margin-bottom: 50px;
-	text-align: center;
+header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
     border-style: inset;
     border-color: #ce9b8e;
 }
 
-footer
-{
+footer {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
 }
 
-main
-{
-	margin-left: 100px;
-	margin-right: 100px;
+main {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-h1, h2, h3
-{
-	font-family: Cambria, Cochin, Georgia, serif;
-	text-align: center;
-	line-height: 0px;
+h1,
+h2,
+h3 {
+    font-family: Cambria, Cochin, Georgia, serif;
+    text-align: center;
+    line-height: 0px;
 }
 
-a
-{
-	text-decoration: none;
-	color: #ce9b8e;
-	font-weight: bold;
+a {
+    text-decoration: none;
+    color: #ce9b8e;
+    font-weight: bold;
 }
 
-a:hover
-{
-	text-decoration: underline;
-	color: #905f21;
+a:hover {
+    text-decoration: underline;
+    color: #905f21;
 }
 
-figure
-{
-	text-align: center;
+figure {
+    text-align: center;
 }
 
-figcaption
-{
-	font-style: italic;
+figcaption {
+    font-style: italic;
 }
 
-nav
-{
-	text-align: center;
+nav {
+    text-align: center;
 }
 
-#dolphintour
-{
+#dolphintour {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -73,41 +64,35 @@ nav
     border-radius: 8px;
 }
 
-th, td
-{
-	border: 1px solid black;
-  padding: .2em 1em .2em .3em;
-	text-align: left;
-	vertical-align: middle;
+th,
+td {
+    border: 1px solid black;
+    padding: .2em 1em .2em .3em;
+    text-align: left;
+    vertical-align: middle;
 }
 
-table
-{
-	border-collapse: collapse;
-	margin: 0px auto;
-  
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
 }
 
-table tr:nth-child(even)
-{
+table tr:nth-child(even) {
     background-color: #e7c8b5;
 }
 
-th
-{
-  background-color: #cfd2d5;
+th {
+    background-color: #cfd2d5;
 }
 
-.centered_div
-{
-  margin-left: auto;
-  margin-right: auto;
-  display: table;
-  padding-left: 0px;
+.centered_div {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    padding-left: 0px;
 }
 
-.form
-{
+.form {
     text-align: center;
     background-color: #d6c5ba;
     border-color: #ce9b8e;
@@ -115,4 +100,13 @@ th
     margin-left: 240px;
     margin-right: 240px;
     padding: 10px;
+}
+
+.myButton:hover {
+    background-color: #bc80ea;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
 }
