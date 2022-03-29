@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>T&M Designs</title>
+    <link href="project_styles/default.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div id="navigation">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="form.html">Contact Us</a>
+            <a href="review.html">Leave a Review</a>
+        </div>
+    </header>
+    <br>
+    <main>
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>Please contact us with any questions about our products or our buisness</p>
+            <form action="#">
+                <label for="first">First Name</label>
+                <input type="text" id="first" name="firstname" placeholder="Enter your first name" required>
+                <br>
+                <label for="last">Last Name</label>
+                <input type="text" id="last" name="lastname" placeholder="Enter your last name" required>
+                <br>
+                <label for="number">Phone Number</label>
+                <input type="text" id="number" name="phonenumber" placeholder="Enter your phone number" required>
+                <br>
+                <label for="product">What product are you interested in?</label>
+                <select id="product" name="product">
+                    <option value="blank">Choose One</option>
+                    <option value="bear">Memory Bear</option>
+                    <option value="dog">Memory Dog</option>
+                    <option value="shirt">Custom T-shirt</option>
+                    <option value="quilt">Baby Quilt</option>
+                    <option value="pillow">Reading Pillow</option>
+                    <option value="glass">Custom Glasswear</option>
+                </select>
+                <br>
+                <label for="subject">Please write a brief message about the product you are interest in.</label>
+                <textarea id="subject" name="subject" placeholder="Write your message here." style="height:200px"></textarea required>
+
+                <br>
+                <input type="submit" value="Submit">
+        </div>
+    </main>
+    <footer>
+        T & M Designs &copy;2022
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img alt="css validator" src="project_images/button_validation_css.png">
+            </a>
+            <a href="https://validator.w3.org/check?uri=referer" target="_blank">
+                <img alt="html5 validator" src="project_images/button_validation_html5.png">
+            </a>
+        </p>
+    </footer>
+</body>
+
+</html>

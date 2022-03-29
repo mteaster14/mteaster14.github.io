@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200&display=swap');
+body {
+    font-family: 'Loto', sans-serif;
+    color: #fff;
+    background-color: #9aa88a;
+}
+
+header {
+    font-family: 'Loto', sans-serif;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+footer {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 90%;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1,
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+#navigation {
+    overflow: hidden;
+    background-color: #f0f0ef;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#navigation a {
+    float: left;
+    display: block;
+    color: #333;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    color: #333;
+    background-color: #f0f0ef;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/* Create two equal columns that sits next to each other */
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}

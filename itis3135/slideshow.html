@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mackenzie Teaster | ITIS 3135 | Slideshow</title>
+    <link href="styles/slideshow.css" type="text/css" rel="stylesheet">
+    <script src="scripts/slideshow.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Mackenzie Teaster | ITIS 3135 | Majestic Tiger</h1>
+
+        <nav>
+            <a href="./">Home</a> ||
+            <a href="introduction.html">Introduction</a> ||
+            <a href="contract.html">Contract</a> ||
+            <a href="tables.html"> HTML Tables</a> ||
+            <a href="forms.html">Forms</a> ||
+            <a href="../index.html">UNCC Homepage</a> ||
+            <a href="brand.html">Brand</a> ||
+            <a href="website_evaluations.html">Web Evaluations</a> ||
+            <a href="firstjs.html">First JS</a> ||
+            <a href="polygons.html">Polygons</a> ||
+            <a href="calctry.html">Calc Try</a> ||
+            <a href="calculator_fcc.html">Calc FCC</a> ||
+            <a href="arrays.html">Arrays</a> ||
+            <a href="outline.html">Project Outline</a> ||
+            <a href="slideshow.html">Slideshow</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Slideshow</h2>
+        <!-- Container for the image gallery -->
+        <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="images/cameronhall.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="images/charlottefootball.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="images/woodward.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/urec.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/uncsign.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/studentunion.jpg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="images/cameronhall.jpg" style="width:100%" onclick="currentSlide(1)" alt="Cameron Hall">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/charlottefootball.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Football Field">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/woodward.jpg" style="width:100%" onclick="currentSlide(3)" alt="Woodward Hall">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/urec.jpeg" style="width:100%" onclick="currentSlide(4)" alt="UREC">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/uncsign.jpg" style="width:100%" onclick="currentSlide(5)" alt="UNC Charlotte">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/studentunion.jpg" style="width:100%" onclick="currentSlide(6)" alt="Student Union">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="https://webpages.charlotte.edu/mteaster/" target="_blank">Charlotte.edu</a> ♦
+            <a href="https://github.com/mteaster14/" target="_blank">Github</a> ♦
+            <a href="https://mteaster14.github.io/" target="_blank">Github.io</a> ♦
+            <a href="https://mteaster14.github.io/itis3135/" target="_blank">ITIS3135 Github Pages</a> ♦
+            <a href="https://www.codecademy.com/mteaster" target="_blank">Codecademy</a> ♦
+            <a href="https://www.freecodecamp.org/mteaster" target="_blank">freeCodeCamp</a> ♦
+            <a href="https://jsfiddle.net/user/mteaster" target="_blank">JSFiddle</a> ♦
+            <a href="https://www.linkedin.com/in/mackenzie-teaster/" target="_blank">LinkedIn</a>
+        </nav>
+        <br>
+        <p>Created by <a href="teasterdesigns.com">Teaster Designs &copy;2022</a></p>
+
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img alt="css validator" src="images/button_validation_css.png">
+            </a>
+            <a href="https://validator.w3.org/check?uri=referer" target="_blank">
+                <img alt="html5 validator" src="images/button_validation_html5.png">
+            </a>
+        </p>
+    </footer>
+</body>
